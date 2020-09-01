@@ -1,0 +1,87 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h3 {
+    font-family: 'Paytone One', sans-serif;
+}
+
+#vitalScorecards {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+
+/* #summaryCharts {
+    display: flex;
+    height: 500px;
+}
+
+#summaryCharts section {
+    border: 1px solid black;
+    background: green;
+    flex: 1 1 auto;
+    flex-basis: 50%;
+} */
+
+.chart-parent--container {
+    display: flex;
+}
+
+.chart--container {
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+}
+
+#vitalScorecards h3 {
+    color: black;
+}
+
+#vitalScorecards output {
+    font-size: xx-large;
+    color: blue;
+}
+
+#totalSales:before {
+    content: '$';
+    font-size: xx-large;
+    color: green;
+}
+
+#arcticMap {
+    cursor: pointer;
+}
+
+.antarctic:hover {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.aq {
+    fill: #BBBBBB;
+    opacity: 0.7;
+}
+
+.aq:hover {
+    opacity: 1;
+}
+
+.heavy {
+    font-size: 40px;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+
+
+/* 
+#myMap svg {
+    fill: #BBBBBB;
+    opacity: 0.8;
+} */
+
+
+/* #myMap svg:hover {
+    opacity: 1;
+} */
